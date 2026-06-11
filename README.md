@@ -10,15 +10,6 @@ Automated secure infrastructure deployment using Docker and Cloudflare Zero-Trus
 - **Load balancing** across multiple containers
 - **Health checks** and auto-restart on failure
 
-## Quick Start
-
-```bash
-git clone https://github.com/Mustafa-SeniorDev/ghosttunnel-infra.git
-cd ghosttunnel-infra
-cp .env.example .env
-# Edit .env with your Cloudflare credentials
-docker-compose up -d
-```
 
 Architecture
 
